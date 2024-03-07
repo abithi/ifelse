@@ -1,0 +1,60 @@
+
+meghna=input("meghna died or not:")
+if(meghna=="died"):
+     print("surya weds priya")
+else:
+     print("surya weds meghna")
+print("======")
+mark=int(input())
+if(mark>35):
+    print("the student is pass")
+else:
+    print("the student is fail")
+print("=======")
+income=int(input("INCOME:"))
+if(income>7000):
+    print("eligible for scolership:")
+else:
+    print("not eligible")
+print("====")
+number=int(input("number:"))
+if(number%3==0)and(number%5==0):
+    print("the number is divisible:")
+else:
+    print("the number is not divisible:")
+print("=====")
+a=int(input())
+if(a%2==0):
+    print("the given number is even")
+else:
+    print("the given number is odd")
+print("=====")
+score=int(input("score:"))
+if(score<35):
+    print("poor student")
+elif(score>35 and score<70):
+    print("average student")
+elif(score>70 and score<100):
+    print("good student")
+else:
+    print("invalid input")
+print("=======")
+a=int(input("score: "))
+if(score>70):
+    name=input()
+    dept=input()
+    location=input()
+    print("eligible")
+else:
+    print("not eligible")
+print("====")
+salary=int(input("salary:"))
+age=int(input("age:"))
+if(salary>=20000 or age<=25):
+    loan=int(input("amount:"))
+    if(loan>50000):
+        print("you are eligible")
+    else:
+        print("you are not eligible")
+
+
